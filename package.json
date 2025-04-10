@@ -11,7 +11,7 @@
     "db:push": "drizzle-kit push"
   },
   "scripts": {
-  "build:github-pages": "vite build --outDir docs --base /<repository-name>/"
+  "build:github-pages": "vite build --outDir docs --base /blogexpress/"
 }
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
