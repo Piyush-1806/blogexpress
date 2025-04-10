@@ -18,6 +18,9 @@ export default defineConfig({
         ]
       : []),
   ],
+  base: '/blogexpress/', 
+  build: {
+    outDir: 'docs',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
